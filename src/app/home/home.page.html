@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+  </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <p>Página Principal</p>
+  <ion-button routerLink="/pagina1" routerDirection="forward">Página 1</ion-button>
+  <ion-button routerLink="/pagina2" routerDirection="forward">Página 2</ion-button>
+  <ion-button routerLink="/pagina3" routerDirection="forward">Página 3</ion-button>
+  <ion-button routerLink="/pagina4" routerDirection="forward">Página 4</ion-button>
+</ion-content>
